@@ -1,0 +1,83 @@
+@media only screen and (max-width: 991px) {
+    header .navbar-expand-lg {
+        background-color: rgb(10 43 85 / 60%);
+        min-height: 72px;
+        padding: 0;
+    }
+
+    header .navbar::before {
+        max-height: 36px;
+    }
+
+
+    .navbar-nav .nav-link {
+        font-size: 14px;
+        padding: 2px 0px;
+    }
+
+    .right-header {
+        min-height: 72px;
+    }
+
+    .ajs-logo {
+        min-height: 72px;
+    }
+
+    .ajs-logo a {
+        margin-right: 0;
+    }
+
+    .ajs-logo img {
+        height: 40px;
+        width: 107px;
+    }
+
+    .header-action {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .header-action .cta-action {
+        display: flex;
+        align-items: center;
+        margin-bottom: 2px;
+        margin-top: 0px;
+    }
+
+    .header-action .cta-phone h1 {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .header-action .cta-phone p {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .header-action a.btn {
+        margin-top: 2px;
+    }
+
+    .header-action a.cta-phone {
+        margin-right: 10px;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 3px 8px;
+        min-width: 147px;
+        min-height: 24px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 11px;
+        padding-left: 11px;
+    }
+
+    ul li.nav-item:last-child .nav-link {
+        padding-right: 0px;
+    }
+}
